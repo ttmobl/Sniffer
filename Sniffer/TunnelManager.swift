@@ -24,7 +24,7 @@ class TunnelManager {
     func loadAllFromPreferences(completionHandler: @escaping () -> Void) {
         NETunnelProviderManager.loadAllFromPreferences { mgs, loadAllErr in
             if let err: Error = loadAllErr {
-                assertionFailure("\(err)")
+//                assertionFailure("\(err)")
             }
             /* check if created */
             if let tpm: NETunnelProviderManager = mgs?.first {
@@ -45,6 +45,8 @@ class TunnelManager {
                     tpp.providerBundleIdentifier = "zapcannon87.Sniffer.PacketTunnel"
                     tpp.serverAddress = "Sniffer"
                 #endif
+                
+                tpp.providerBundleIdentifier = "com.job.flow.relay"
                 let newTpm = NETunnelProviderManager()
                 newTpm.protocolConfiguration = tpp
                 
@@ -60,11 +62,11 @@ class TunnelManager {
         manager.isEnabled = true
         manager.saveToPreferences() { saveErr in
             if let err: Error = saveErr {
-                assertionFailure("\(err)")
+//                assertionFailure("\(err)")
             }
             manager.loadFromPreferences() { loadErr in
                 if let err: Error = loadErr {
-                    assertionFailure("\(err)")
+//                    assertionFailure("\(err)")
                 }
                 completionHandler()
             }

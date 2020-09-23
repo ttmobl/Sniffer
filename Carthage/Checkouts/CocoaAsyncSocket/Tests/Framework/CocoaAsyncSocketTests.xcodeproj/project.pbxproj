@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2DBCA5C81B8CF4F3004F3128 /* GCDAsyncSocketUNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBCA5C71B8CF4F3004F3128 /* GCDAsyncSocketUNTests.m */; };
-		D900F31E1C753B2A00F0AEF0 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900F31D1C753B2A00F0AEF0 /* SwiftTests.swift */; };
-		D938B4E51B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D938B4E31B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m */; };
+		8710851223FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710851023FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m */; };
+		8710851323FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710851023FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m */; };
+		8710851423FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710851023FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m */; };
+		8710851523FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710851123FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m */; };
+		8710851623FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710851123FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m */; };
+		8710851723FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8710851123FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m */; };
+		8710851E23FAA4E00004F896 /* TestServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851923FAA4E00004F896 /* TestServer.swift */; };
+		8710851F23FAA4E00004F896 /* TestServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851923FAA4E00004F896 /* TestServer.swift */; };
+		8710852023FAA4E00004F896 /* TestServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851923FAA4E00004F896 /* TestServer.swift */; };
+		8710852123FAA4E00004F896 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851A23FAA4E00004F896 /* SwiftTests.swift */; };
+		8710852223FAA4E00004F896 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851A23FAA4E00004F896 /* SwiftTests.swift */; };
+		8710852323FAA4E00004F896 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851A23FAA4E00004F896 /* SwiftTests.swift */; };
+		8710852423FAA4E00004F896 /* SecureSocketServer.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 8710851B23FAA4E00004F896 /* SecureSocketServer.p12 */; };
+		8710852523FAA4E00004F896 /* SecureSocketServer.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 8710851B23FAA4E00004F896 /* SecureSocketServer.p12 */; };
+		8710852623FAA4E00004F896 /* SecureSocketServer.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 8710851B23FAA4E00004F896 /* SecureSocketServer.p12 */; };
+		8710852723FAA4E00004F896 /* TestSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851C23FAA4E00004F896 /* TestSocket.swift */; };
+		8710852823FAA4E00004F896 /* TestSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851C23FAA4E00004F896 /* TestSocket.swift */; };
+		8710852923FAA4E00004F896 /* TestSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851C23FAA4E00004F896 /* TestSocket.swift */; };
+		8710852A23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851D23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift */; };
+		8710852B23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851D23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift */; };
+		8710852C23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710851D23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift */; };
 		D9486AE61E62BA0F002FE3B3 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9486AE11E62B9F8002FE3B3 /* CocoaAsyncSocket.framework */; };
-		D9486AEB1E62BA66002FE3B3 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900F31D1C753B2A00F0AEF0 /* SwiftTests.swift */; };
-		D9486AED1E62BA66002FE3B3 /* GCDAsyncSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D938B4E31B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m */; };
 		D9486AF81E62BADC002FE3B3 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9486ADF1E62B9F8002FE3B3 /* CocoaAsyncSocket.framework */; };
-		D9486AFD1E62BB3D002FE3B3 /* SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D900F31D1C753B2A00F0AEF0 /* SwiftTests.swift */; };
-		D9486AFF1E62BB3D002FE3B3 /* GCDAsyncSocketConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D938B4E31B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m */; };
 		D9486B0A1E62BB62002FE3B3 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9486AE31E62B9F8002FE3B3 /* CocoaAsyncSocket.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,8 +81,16 @@
 
 /* Begin PBXFileReference section */
 		2DBCA5C71B8CF4F3004F3128 /* GCDAsyncSocketUNTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocketUNTests.m; path = ../Mac/GCDAsyncSocketUNTests.m; sourceTree = SOURCE_ROOT; };
-		D900F31D1C753B2A00F0AEF0 /* SwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftTests.swift; path = ../Shared/SwiftTests.swift; sourceTree = "<group>"; };
-		D938B4E31B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocketConnectionTests.m; path = ../Shared/GCDAsyncSocketConnectionTests.m; sourceTree = "<group>"; };
+		8710851023FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocketConnectionTests.m; sourceTree = "<group>"; };
+		8710851123FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocketConnectionTests.m; sourceTree = "<group>"; };
+		8710851923FAA4E00004F896 /* TestServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestServer.swift; sourceTree = "<group>"; };
+		8710851A23FAA4E00004F896 /* SwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTests.swift; sourceTree = "<group>"; };
+		8710851B23FAA4E00004F896 /* SecureSocketServer.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SecureSocketServer.p12; sourceTree = "<group>"; };
+		8710851C23FAA4E00004F896 /* TestSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSocket.swift; sourceTree = "<group>"; };
+		8710851D23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDAsyncSocketReadTests.swift; sourceTree = "<group>"; };
+		D92A3B9323FBA8400089F6C3 /* CocoaAsyncSocketTests (iOS).xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CocoaAsyncSocketTests (iOS).xctestplan"; sourceTree = "<group>"; };
+		D92A3B9423FBA8400089F6C3 /* CocoaAsyncSocketTests (tvOS).xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CocoaAsyncSocketTests (tvOS).xctestplan"; sourceTree = "<group>"; };
+		D92A3B9523FBA8400089F6C3 /* CocoaAsyncSocketTests (macOS).xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CocoaAsyncSocketTests (macOS).xctestplan"; sourceTree = "<group>"; };
 		D9486AD81E62B9F8002FE3B3 /* CocoaAsyncSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket.xcodeproj; path = ../../CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
 		D9486AF41E62BA66002FE3B3 /* CocoaAsyncSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaAsyncSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9486B061E62BB3D002FE3B3 /* CocoaAsyncSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaAsyncSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,11 +133,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8710850F23FAA4D90004F896 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				8710851023FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m */,
+				8710851123FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m */,
+			);
+			name = ObjC;
+			path = ../Shared/ObjC;
+			sourceTree = "<group>";
+		};
+		8710851823FAA4E00004F896 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8710851923FAA4E00004F896 /* TestServer.swift */,
+				8710851A23FAA4E00004F896 /* SwiftTests.swift */,
+				8710851B23FAA4E00004F896 /* SecureSocketServer.p12 */,
+				8710851C23FAA4E00004F896 /* TestSocket.swift */,
+				8710851D23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift */,
+			);
+			name = Swift;
+			path = ../Shared/Swift;
+			sourceTree = "<group>";
+		};
 		D938B4E61B752ED800FE8AB3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D938B4E31B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m */,
-				D900F31D1C753B2A00F0AEF0 /* SwiftTests.swift */,
+				8710850F23FAA4D90004F896 /* ObjC */,
+				8710851823FAA4E00004F896 /* Swift */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -132,6 +178,9 @@
 		D9873DA11A057F34004C014F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D92A3B9323FBA8400089F6C3 /* CocoaAsyncSocketTests (iOS).xctestplan */,
+				D92A3B9523FBA8400089F6C3 /* CocoaAsyncSocketTests (macOS).xctestplan */,
+				D92A3B9423FBA8400089F6C3 /* CocoaAsyncSocketTests (tvOS).xctestplan */,
 				D938B4E61B752ED800FE8AB3 /* Shared */,
 				D9BC0D8E1A0458EF0059D906 /* Mac */,
 			);
@@ -165,7 +214,7 @@
 				D9BC0D8F1A0458EF0059D906 /* Supporting Files */,
 			);
 			name = Mac;
-			path = CocoaAsyncSocketTestsMac;
+			path = ../Mac;
 			sourceTree = "<group>";
 		};
 		D9BC0D8F1A0458EF0059D906 /* Supporting Files */ = {
@@ -240,20 +289,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0930;
 				TargetAttributes = {
+					D9486AE71E62BA66002FE3B3 = {
+						LastSwiftMigration = 1130;
+					};
 					D9BC0D8C1A0458EF0059D906 = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
 			buildConfigurationList = D9BC0D781A0457800059D906 /* Build configuration list for PBXProject "CocoaAsyncSocketTests" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D9BC0D741A0457800059D906;
 			productRefGroup = D9BC0D801A0457F40059D906 /* Products */;
@@ -302,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8710852523FAA4E00004F896 /* SecureSocketServer.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8710852623FAA4E00004F896 /* SecureSocketServer.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8710852423FAA4E00004F896 /* SecureSocketServer.p12 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +382,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9486AEB1E62BA66002FE3B3 /* SwiftTests.swift in Sources */,
-				D9486AED1E62BA66002FE3B3 /* GCDAsyncSocketConnectionTests.m in Sources */,
+				8710851323FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m in Sources */,
+				8710851623FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m in Sources */,
+				8710851F23FAA4E00004F896 /* TestServer.swift in Sources */,
+				8710852823FAA4E00004F896 /* TestSocket.swift in Sources */,
+				8710852B23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift in Sources */,
+				8710852223FAA4E00004F896 /* SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,8 +395,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9486AFD1E62BB3D002FE3B3 /* SwiftTests.swift in Sources */,
-				D9486AFF1E62BB3D002FE3B3 /* GCDAsyncSocketConnectionTests.m in Sources */,
+				8710851423FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m in Sources */,
+				8710851723FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m in Sources */,
+				8710852023FAA4E00004F896 /* TestServer.swift in Sources */,
+				8710852923FAA4E00004F896 /* TestSocket.swift in Sources */,
+				8710852C23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift in Sources */,
+				8710852323FAA4E00004F896 /* SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +408,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D900F31E1C753B2A00F0AEF0 /* SwiftTests.swift in Sources */,
+				8710851E23FAA4E00004F896 /* TestServer.swift in Sources */,
+				8710851523FAA4D90004F896 /* GCDAsyncSocketConnectionTests.m in Sources */,
+				8710852723FAA4E00004F896 /* TestSocket.swift in Sources */,
+				8710852123FAA4E00004F896 /* SwiftTests.swift in Sources */,
+				8710852A23FAA4E00004F896 /* GCDAsyncSocketReadTests.swift in Sources */,
 				2DBCA5C81B8CF4F3004F3128 /* GCDAsyncSocketUNTests.m in Sources */,
-				D938B4E51B752ED500FE8AB3 /* GCDAsyncSocketConnectionTests.m in Sources */,
+				8710851223FAA4D90004F896 /* GCDAsyncUdpSocketConnectionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +478,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = ../Shared/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisballinger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -455,13 +526,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = ../Shared/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisballinger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -504,14 +578,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = ../Shared/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisballinger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -549,25 +626,36 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = ../Shared/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisballinger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		D9BC0D791A0457800059D906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -583,18 +671,27 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		D9BC0D7A1A0457800059D906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -608,7 +705,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -651,14 +750,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = ../Shared/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisballinger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -696,13 +798,16 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = ../Shared/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisballinger.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

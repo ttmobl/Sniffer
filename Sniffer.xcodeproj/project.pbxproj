@@ -348,6 +348,7 @@
 		D3BAE1E31F653FFE00A349CA /* ZPTCPIPStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZPTCPIPStack.h; path = Carthage/Checkouts/ZPTCPIPStack/ZPTCPIPStack/ZPTCPIPStack.h; sourceTree = SOURCE_ROOT; };
 		D3DE8E951F57A0F5006700C0 /* TunnelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunnelManager.swift; sourceTree = "<group>"; };
 		D3DE8E971F57CA64006700C0 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E5B9316C251B4FAC00C882F2 /* Sniffer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sniffer.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,6 +404,7 @@
 		D35240021F4BD090006656F0 /* Sniffer */ = {
 			isa = PBXGroup;
 			children = (
+				E5B9316C251B4FAC00C882F2 /* Sniffer.entitlements */,
 				D35240031F4BD090006656F0 /* AppDelegate.swift */,
 				D35240051F4BD090006656F0 /* ViewController.swift */,
 				D39DFBB41F5BEEB90067F454 /* SessionsViewController.swift */,
@@ -843,12 +845,12 @@
 				TargetAttributes = {
 					D3523FFF1F4BD090006656F0 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 7SAYZHVU5H;
+						DevelopmentTeam = GN82UBFVXQ;
 						ProvisioningStyle = Automatic;
 					};
 					D35240181F4BD0E5006656F0 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 7SAYZHVU5H;
+						DevelopmentTeam = GN82UBFVXQ;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -864,6 +866,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1129,16 +1132,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7SAYZHVU5H;
+				CODE_SIGN_ENTITLEMENTS = Sniffer/Sniffer.entitlements;
+				DEVELOPMENT_TEAM = GN82UBFVXQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Sniffer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zapcannon87.Sniffer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.job.flow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1147,16 +1151,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7SAYZHVU5H;
+				CODE_SIGN_ENTITLEMENTS = Sniffer/Sniffer.entitlements;
+				DEVELOPMENT_TEAM = GN82UBFVXQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Sniffer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zapcannon87.Sniffer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.job.flow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1165,18 +1170,18 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
-				DEVELOPMENT_TEAM = 7SAYZHVU5H;
+				DEVELOPMENT_TEAM = GN82UBFVXQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zapcannon87.Sniffer.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.job.flow.relay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1185,17 +1190,17 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
-				DEVELOPMENT_TEAM = 7SAYZHVU5H;
+				DEVELOPMENT_TEAM = GN82UBFVXQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zapcannon87.Sniffer.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.job.flow.relay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1282,6 +1287,7 @@
 				D3BAE15B1F653FA200A349CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
