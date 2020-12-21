@@ -46,7 +46,7 @@ class TunnelManager {
                     tpp.serverAddress = "Sniffer"
                 #endif
                 
-                tpp.providerBundleIdentifier = "com.job.flow.relay"
+                tpp.providerBundleIdentifier = "com.job.flow.tunnel"
                 let newTpm = NETunnelProviderManager()
                 newTpm.protocolConfiguration = tpp
                 
